@@ -1,7 +1,7 @@
-import web1 from "../public/assets/messaging.avif";
+import web1 from "../public/assets/messaging.jpg";
 import web2 from "../public/assets/travel-advisor-web.jpg";
 import web3 from "../public/assets/movies.jpg";
-import web4 from "../public/assets/food.avif";
+import web4 from "../public/assets/food.jpeg";
 
 export const data = [
     {
