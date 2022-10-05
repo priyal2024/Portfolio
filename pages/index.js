@@ -6,7 +6,7 @@ import { Alert } from "@material-ui/lab";
 import Image from "next/image";
 import devPri from "../public/assets/priyal.png";
 import emailjs from "@emailjs/browser";
-import { data } from "./data";
+import { data } from "../public/data";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -113,27 +113,25 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a web developer, I&apos;ve
-              done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              I&apos;m a front-end developer from Cambridge, UK. I&apos;have
+              more than two years of experience as a front-end developer. Since
+              the beginning of my journey as a web developer, I&apos;ve build
+              various web application using HTML,CSS, JS, ReactJs, etc. for
+              <span className="text-teal-500"> startups </span>
               and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              for both business and consumer use. I&apos;m very enthusiastic,
+              passionate and desciplined about my work.
             </p>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a web developer, I&apos;ve
-              done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Here are some of my work examples. It describes my starting to
+              current journey in this domain.
             </p>
           </div>
           <div className="flex flex-row flex-wrap justify-between items-center gap-16 py-10 lg:flex-row lg:flex-wrap">
