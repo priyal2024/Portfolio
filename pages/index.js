@@ -15,7 +15,6 @@ export default function Home() {
   const name = useRef();
   const email = useRef();
   const msg = useRef();
-  console.log(process.env);
 
   const sendEmail = (e) => {
     e.preventDefault();
