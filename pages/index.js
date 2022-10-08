@@ -15,16 +15,17 @@ export default function Home() {
   const name = useRef();
   const email = useRef();
   const msg = useRef();
+  console.log(process.env);
 
   const sendEmail = (e) => {
     e.preventDefault();
     if (name.current.value && email.current.value && msg.current.value) {
       emailjs
         .sendForm(
-          process.env.EMAIL_SERVICE_KEY,
-          process.env.EMAIL_TEMPLATE_KEY,
+          process.env.NEXT_PUBLIC_SERVICE_KEY,
+          process.env.NEXT_PUBLIC_TEMPLATE_KEY,
           form.current,
-          process.env.EMAIL_PUBLIC_KEY
+          process.env.NEXT_PUBLIC_KEY
         )
         .then(
           (result) => {
