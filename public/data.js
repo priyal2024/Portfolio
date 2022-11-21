@@ -20,13 +20,6 @@ export const data = [
     },
     {
         id: 3,
-        name: "Movie List",
-        desc: "Movie list reactjs web app which lists nowp laying movies, upcoming and latest movies. It is also provide searching movies functionality.",
-        link: "",
-        img: web3
-    },
-    {
-        id: 4,
         name: "Food Ordering App",
         desc: "Food list will display with it's amount,description. here user can add items into the cart and can view order details. This web app is build by using ReactJs framework and Firebase. This is build with advance react concepts like context,redux etc.",
         link: "https://food-order-reactjs-app.netlify.app/",
